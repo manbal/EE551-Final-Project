@@ -22,10 +22,17 @@ The project will be completed by the deadline of 12/02/2019 Monday at 5pm ET
 * matplotlib
 * keras
 * random
+* os
 
 The packages should be installable by running the command:
 ```
 pip install *package*
+```
+
+NOTE: 64-bit version of python will be needed to run the program as tensorflow is only suppported on 64-bit version of python.
+To check which version of python is being used, open a python console and run the following:
+```
+import struct; print(struct.calcsize("P") * 8)
 ```
 ### Contents of Repository 
 
