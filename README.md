@@ -3,7 +3,7 @@
 Manish Balakrishnan <br />
 
 ### Introduction
-Python offers many opportunites for Machine Learning applications. This project explores Python's Machine Learning packages to correctly identify digits from a dataset of thousands of handwritten images of digits. This project will use dtasets from MNIST("Modified National Institute of Standards and Technology") provided by Kaggle to train and test classification algorithms. A Convolutional Neural Network implemented using Keras. The skills learned from this project will be very educational as they are the basis for many computer vision and machine learning fundamentals. 
+Python offers many opportunites for Machine Learning applications. This project explores Python's Machine Learning packages to correctly identify digits from a dataset of thousands of handwritten images of digits. This project will use dtasets from MNIST("Modified National Institute of Standards and Technology") provided by Kaggle to train and test classification algorithms. A Convolutional Neural Network implemented using Keras. The skills learned from this project will be very educational as they are the basis for many computer vision and machine learning fundamentals.\
 As I am very new to Machine Learning, this project will be helpful in understanding the fundamentals of machine learning
 
 The scope and goals of this project are:
