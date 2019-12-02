@@ -34,6 +34,7 @@ To check which version of python is being used, open a python console and run th
 ```
 import struct; print(struct.calcsize("P") * 8)
 ```
+If you are running the 32-bit version, please install a 64-bit version.
 ### Contents of Repository 
 
 ``` classifier.py``` - Contains the main python code used to train the model\
