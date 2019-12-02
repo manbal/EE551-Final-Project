@@ -1,8 +1,8 @@
 ### Code
 
-``` training.py``` - Contains the main python code used to train the model\
-``` test.py ``` - Contains test code to test the model against randomly selected images and compare to its actual values\
-``` model.h5``` - Contains the model that was trained by training.py
+``` classifier.py``` - Contains the main python code used to train the model\
+``` testDigits.py ``` - Contains test code to test the model against randomly selected images and compare to its actual values\
+``` model.h5``` - Contains the model that was trained by classifier.py (found in /model directory)
 
 If test.py is being run first, make sure to download ```model.h5``` and place in the same directory as ```test.py```. If ```training.py``` is being run first, the program will generate and save the generated model after which test.py can be run.
 
