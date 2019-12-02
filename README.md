@@ -27,19 +27,32 @@ The packages should be installable by running the command:
 ```
 pip install *package*
 ```
+### Contents of Repository 
 
+``` classifier.py``` - Contains the main python code used to train the model\
+``` testDigits.py ``` - Contains test code to test the model against randomly selected images and compare to its actual values\
+``` model.h5``` - Contains the model that was trained by classifier.py (found in /model directory)
+
+If test.py is being run first, make sure to download ```model.h5``` and place in the same directory as ```test.py```. If ```training.py``` is being run first, the program will generate and save the generated model after which test.py can be run.
 
 ### Image Classification Theory
 Image classification is the concept of taking an image and being able to classify it based on the contents of the image. This concept has now been acheivable through the use of Machine Learning. When an image is inputted to a computer, it is read as a bitmap of pixels. With the advent of machine learning, we are able to pass the image into different layers to pick up attributes/uinque features of the image in order to classify it. To acheive this, numerous layers are used, discussed below.  
 
 #### Convolution Layer
-The first layer where the features from the images are extracted. This layer helps to filter the image and reduce the size of the image.
+The first layer where the features from the images are extracted. This layer helps to filter the image and reduce the size of the image. It is essentially a mathematical convultion conducted on the image.
   
 #### Pooling Layer
-Usually inserted after a convolution layer, this layer is used to reduce the spatial size of the output from the previous layer.
+Usually inserted after a convolution layer, this layer is used to reduce the spatial size of the output from the previous layer. It will reduce the 'dimensions' of the map without losing the information in them.
+
+A graphical interpretation of the various layers can be seen below:
+![](https://miro.medium.com/max/948/1*4GLv7_4BbKXnpc6BRb0Aew.png)
 
 The above mention just some of the layers commonly used in image classification. 
 
   
 ### Acknowledgements <br />
-The project will use datasets obtained from Kaggle and use the Keras library, an open-source neural network library.
+The project will use datasets obtained from the Mnist library in the Keras package, an open-source neural network library. Additional information about the package and image classification concepts were learned from the websites below.
+* https://www.tensorflow.org/
+* https://www.tensorflow.org/guide/keras
+* https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148 
+
